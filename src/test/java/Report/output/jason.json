@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-28T07:17:04.492Z",
+        "line": 16,
+        "name": "I am a tester",
+        "description": "",
+        "id": "life-of-it-tester;i-am-a-tester;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2009300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am a \"good\" tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"good\"",
+                  "offset": 7
+                }
+              ],
+              "location": "report.I_am_a_good_developer(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 699200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I go to work",
+            "match": {
+              "location": "report.I_go_to_work()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 509100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I \"completes\" it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"completes\"",
+                  "offset": 2
+                }
+              ],
+              "location": "report.I_completes_it_up(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 597100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "My boss \"salutes\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"salutes\"",
+                  "offset": 8
+                }
+              ],
+              "location": "report.My_boss_salutes_me(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 439200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The developer \"hates\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hates\"",
+                  "offset": 14
+                }
+              ],
+              "location": "report.The_tester_hates_me(String)"
+            },
+            "keyword": "But "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-28T07:17:04.531Z",
+        "line": 17,
+        "name": "I am a tester",
+        "description": "",
+        "id": "life-of-it-tester;i-am-a-tester;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 606000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am a \"bad\" tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bad\"",
+                  "offset": 7
+                }
+              ],
+              "location": "report.I_am_a_good_developer(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 403200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I go to work",
+            "match": {
+              "location": "report.I_go_to_work()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I \"mess\" it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mess\"",
+                  "offset": 2
+                }
+              ],
+              "location": "report.I_completes_it_up(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 708300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "My boss \"fires\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fires\"",
+                  "offset": 8
+                }
+              ],
+              "location": "report.My_boss_salutes_me(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 425500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The developer \"likes\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"likes\"",
+                  "offset": 14
+                }
+              ],
+              "location": "report.The_tester_hates_me(String)"
+            },
+            "keyword": "But "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-11-28T07:17:04.536Z",
+        "line": 18,
+        "name": "I am a tester",
+        "description": "",
+        "id": "life-of-it-tester;i-am-a-tester;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 713200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am a \"avg\" tester",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"avg\"",
+                  "offset": 7
+                }
+              ],
+              "location": "report.I_am_a_good_developer(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 470800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I go to work",
+            "match": {
+              "location": "report.I_go_to_work()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 689500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I \"satisfies\" it",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"satisfies\"",
+                  "offset": 2
+                }
+              ],
+              "location": "report.I_completes_it_up(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 573400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "My boss \"congratulates\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"congratulates\"",
+                  "offset": 8
+                }
+              ],
+              "location": "report.My_boss_salutes_me(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 563400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The developer \"respects\" me",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"respects\"",
+                  "offset": 14
+                }
+              ],
+              "location": "report.The_tester_hates_me(String)"
+            },
+            "keyword": "But "
+          }
+        ]
+      }
+    ],
+    "name": "Life of IT Tester",
+    "description": "In order to get good salary\nAS an IT guy\nI want to keep my boss happy",
+    "id": "life-of-it-tester",
+    "keyword": "Feature",
+    "uri": "classpath:Report/report.feature",
+    "tags": []
+  }
+]

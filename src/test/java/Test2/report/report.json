@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-28T07:25:41.759Z",
+        "line": 4,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "working-of-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter 20 in the calculator",
+            "match": {
+              "location": "Test2.I_enter_20_in_the_calculator()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I press add",
+            "match": {
+              "location": "Test2.I_press_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have entered 20 in the calculator",
+            "match": {
+              "location": "Test2.I_have_entered_20_in_the_calculator()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press equal symbol",
+            "match": {
+              "location": "Test2.I_press_equal_symbol()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The result should be 40 in the screen",
+            "match": {
+              "location": "Test2.The_result_should_be_100_in_the_screen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Working of calculator",
+    "description": "  I want to add two numbers",
+    "id": "working-of-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:Test2/calcultor.feature",
+    "tags": []
+  }
+]
